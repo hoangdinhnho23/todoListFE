@@ -1,0 +1,30 @@
+@import "../index.scss";
+.container {
+  .body {
+    margin-top: 3rem;
+    padding: 2rem;
+    border-radius: 5px;
+    .date {
+        color: rgb(233, 203, 232);
+      font-size: 1.6rem;
+    }
+    .tasks {
+      .task {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background: rgb(169, 73, 166);
+        color: #fff;
+        padding: 0.75rem 1rem;
+        border-radius: 5px;
+        margin-bottom: 1rem;
+        font-size: 1.1rem;
+        cursor: pointer;
+        .checkBox {
+            display: flex;
+            width: 100%;
+        }
+      }
+    }
+  }
+}

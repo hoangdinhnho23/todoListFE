@@ -1,0 +1,29 @@
+@import "../index.scss";
+
+
+.containerCal {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  
+  align-items: center;
+  justify-content: center;
+  .content {
+    -webkit-box-shadow: 5px 5px 15px 5px #a7bfff;
+    box-shadow: 5px 5px 15px 5px #a7bfff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .headerCalen {
+        width: 100%;
+        height: 70px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: rgb(163, 36, 158);
+        color: rgb(233, 203, 232);
+    }
+
+  }
+}

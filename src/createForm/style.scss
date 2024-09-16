@@ -1,0 +1,24 @@
+.form {
+  input {
+    outline: none;
+    background: none;
+    border: 1px solid rgb(169, 73, 166);
+    padding: 1rem 1rem;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    width: 300px;
+    color: #fff;
+    font-size: 1.1rem;
+    &::placeholder {
+      color: #ffffff4d;
+    }
+  }
+  button {
+    background: rgb(169, 73, 166);
+    color: #fff;
+    border: none;
+    font-size: 1.1rem;
+    padding: 1.1rem;
+    cursor: pointer;
+  }
+}
